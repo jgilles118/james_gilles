@@ -68,10 +68,9 @@ due to the fact that that is an authorized user capability.
 
 Open a new browser tab and type into the url: localhost/blog.html
 
-***>>Make the correct adjustment to the IP address & login info in the ->  vmdaj.ini
-This will allow the user the ability to see transactions through RabbitMQ. 
+## Make the correct adjustment to the IP address & login info in the ->  vmdaj.ini
+## This will allow the user the ability to see transactions through RabbitMQ. 
 
 
-Date modified: April 28, 2023
-
+Date modified: May 1, 2023 
 	
