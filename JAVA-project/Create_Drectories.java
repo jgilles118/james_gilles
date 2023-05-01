@@ -28,7 +28,7 @@ public class Create_Drectories {
 		 Destination Path to create the folders/directoires.
 		  Your path will be different on your workstation/PC/Laptop
 		*/
-		//Windows
+		//Windows: Comment using // to  the Unix, Linux strint below. Then remove the comment // of the Windows string underneath
 		//String destination = "C:\\Users\\Your user name\\Desktop\\";
 
 		//Unix, Linux
