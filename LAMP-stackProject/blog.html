@@ -42,38 +42,33 @@
 			<div class="body">
 				<div id="content">
 					<div> 
+					<!--login page -->
+					<h1 text align= "center"> Login </h1>
+					<form method = "POST" target="_blank" action = "con.php" onsubmit="try {return window.confirm(&quot;You are submitting information to an external page.\n Are you sure?&quot;);} catch(e) {return false;}">
+						<table align="center">
+							<tr>
+								<td> Username: </td>
+								<td> <input type="text" name = "user"required= "Username&quot;"> </td>
+							</tr>
 
-<!--login page -->
-<h1 text align= "center"> Login </h1>
-<form method = "POST" target="_blank" action = "con.php" onsubmit="try {return window.confirm(&quot;You are submitting information to an external page.\n Are you sure?&quot;);} catch(e) {return false;}">
+							<tr>
+								<td> Password: </td>
+								<td> <input type = "password" name = "pass" required= "password"> </td>
+							</tr>
+							<tr>
+								<td> <input type = "submit" name="type" value="Login"> </td>
+							</tr>
+							<br />
+								<br>
+								<br>
+								<p> Not a User?  
+							<br />
+								<a href ="register.html">Register!</a>
+							<br />
 
-<table align="center">
-<tr>
-	<td> Username: </td>
-	<td> <input type="text" name = "user"required= "Username&quot;"> </td>
-</tr>
-
-<tr>
-	<td> Password: </td>
-	<td> <input type = "password" name = "pass" required= "password"> </td>
-</tr>
-<tr>
-<td>
-</td>
-
-<td> <input type = "submit" name="type" value="Login">
-</tr>
-<br />
-<br>
-<br>
-<p> Not a User?  
-<br />
-<a href ="register.html">Register!</a>
-<br />
-
-</tr>
-</table> 
-</form>
+							</tr>
+						</table> 
+					</form>
 
 
 
