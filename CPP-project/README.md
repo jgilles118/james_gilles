@@ -30,7 +30,7 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 3. A simple `Hello World` program is enough to test Geany.
 ```
-#include <iostream> //for use of cout, cin;
+#include <iostream>; //for use of cout, cin
 using namespace std; //Using the standard library
 
 int main()
